@@ -1,0 +1,40 @@
+.bordure{
+    border: 1px solid black;
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    margin-top: 20px;
+}
+.flex{
+    display: flex;
+    /* margin: 20px; */
+    align-items: center;
+    
+}
+img{
+   width: 400px;
+   height: 200px;
+   margin-left: 15px;
+}
+.texte{
+    margin: 20px;
+}
+.like{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+   
+}
+button{
+    margin-right: 20px;
+}
+.flex1{
+    display: flex;
+}
+.coeur{
+    color: pink;
+}
+.colse{
+   margin-left:20px;
+   margin-top: 40px;
+}

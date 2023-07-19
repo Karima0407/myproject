@@ -1,0 +1,24 @@
+<div class="bordure">
+  <span (click)="remove()"class="colse" [ngStyle]="{'font-size':'2em'}"><i class="fa-solid fa-x"></i></span>
+  <div class="flex">
+    
+    <img [src]="movie.urlImage" alt="" />
+    <div class="texte"> 
+      
+      <h1>{{movie.title | titlecase}}</h1>
+      <p>
+        {{movie.description}}
+      </p>
+      <div class="like">
+        <button [ngClass]="{coeur: movie.liked}"(click)="jelike()">likez</button>
+       
+       
+      <h2>{{movie.likes}} likes</h2>
+      
+      </div>
+       <p>{{movie.price|currency:'EUR'}}</p>
+    </div>
+    
+  </div>
+  
+</div>
